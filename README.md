@@ -6,6 +6,13 @@ Visit the published site: <https://k-k-szostak.github.io/marginalia-local-search
 
 The site is deliberately static: there is no build step, analytics service, account system, or third-party JavaScript dependency.
 
+## Project disclosure
+
+Marginalia was vibe-coded: it was developed through iterative collaboration
+with AI coding tools, under human direction and testing. The application is
+experimental beta software, provided as-is and without warranty. It may contain
+defects and should be used at the user's own risk.
+
 ## Local preview
 
 From this folder, run:
