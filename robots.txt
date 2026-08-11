@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://k-k-szostak.github.io/marginalia-local-search-site/sitemap.xml
