@@ -157,6 +157,8 @@ h1 em, h2 em { color: var(--green); font-weight: 400; }
 .privacy-card .eyebrow { color: #9eb5a7; }
 .privacy-copy { align-self: end; }
 .privacy-copy p { color: #d5dfd8; font: 17px/1.7 var(--serif); }
+.privacy-copy .build-disclosure { margin-top: 24px; padding-top: 20px; border-top: 1px solid #ffffff2e; color: #bfcfc5; font: 12px/1.65 var(--sans); }
+.build-disclosure strong { color: white; }
 .text-link.light { color: white; }
 
 .faq { max-width: 1320px; margin-inline: auto; }
