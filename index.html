@@ -227,7 +227,7 @@
         <h2>Common questions.</h2>
       </div>
       <div class="faq-list">
-        <details><summary>What happens with Python?</summary><p>Marginalia reuses Python 3.12 when available. Otherwise it asks before attempting an official installation, then creates an isolated environment inside its own folder.</p></details>
+        <details><summary>Do I need to install Python?</summary><p>Only if Python 3.12 is not already installed. Marginalia reuses an existing installation. On Windows, the launcher asks permission before installing Python through winget; on macOS and Linux, it tells you what is needed. Marginalia then creates an isolated environment inside its own folder.</p></details>
         <details><summary>Do I need Ollama or an AI model?</summary><p>No. BM25 keyword search works without Ollama. Semantic search and generated answers are optional, and you choose each model separately.</p></details>
         <details><summary>Will it modify my Zotero or Obsidian library?</summary><p>No. Marginalia creates and searches private working copies. Your source folders remain untouched.</p></details>
         <details><summary>Does it support macOS and Linux?</summary><p>Yes. The same ZIP contains launchers for Windows, macOS and Linux. The application code is shared; only the small start file differs. Python 3.12 and Tk are required. The launcher guides you if they are missing.</p></details>
