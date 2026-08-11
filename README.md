@@ -2,6 +2,8 @@
 
 This repository contains the public website for [Marginalia](https://github.com/K-K-Szostak/marginalia-local-search), a private local search application for Zotero and Obsidian.
 
+Visit the published site: <https://k-k-szostak.github.io/marginalia-local-search-site/>
+
 The site is deliberately static: there is no build step, analytics service, account system, or third-party JavaScript dependency.
 
 ## Local preview
