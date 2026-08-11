@@ -12,7 +12,7 @@
   <meta property="og:url" content="https://k-k-szostak.github.io/marginalia-local-search-site/">
   <meta name="twitter:card" content="summary_large_image">
   <title>Marginalia — private search for Zotero and Obsidian</title>
-  <link rel="stylesheet" href="styles.css?v=10">
+  <link rel="stylesheet" href="styles.css?v=11">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -114,6 +114,30 @@
           <p>Version 0.1.0-beta.6 · tested on Windows, macOS and Ubuntu</p>
           <a class="button button-primary" href="https://github.com/K-K-Szostak/marginalia-local-search/releases/download/v0.1.0-beta.6/Marginalia-v0.1.0-beta.6.zip">Download ZIP</a>
           <a class="text-link" href="https://github.com/K-K-Szostak/marginalia-local-search/releases/tag/v0.1.0-beta.6">Release details →</a>
+          <section class="download-requirements" aria-labelledby="hardware-title">
+            <div class="download-requirements-heading">
+              <h4 id="hardware-title">What your computer needs</h4>
+              <span>Estimated</span>
+            </div>
+            <div class="hardware-compact">
+              <article>
+                <span>Without AI</span>
+                <strong>8 GB RAM</strong>
+                <small>2+ CPU cores · SSD preferred</small>
+              </article>
+              <article class="recommended-tier">
+                <span>Semantic search</span>
+                <strong>8–16 GB RAM</strong>
+                <small>Qwen 0.6B · 639 MB · GPU optional</small>
+              </article>
+              <article>
+                <span>Local AI answers</span>
+                <strong>16 GB min.<br>24 GB recommended</strong>
+                <small>Gemma 4 12B · 7.6 GB · GPU optional</small>
+              </article>
+            </div>
+            <p>Allow at least 3 GB for private copies. Larger libraries and extra models need more storage.</p>
+          </section>
           <details class="checksum">
             <summary>Verify the download</summary>
             <code id="checksum">69823E777A816DE607F425D41871F51B86765D0EC5A52F3EF2354DC6033486AC</code>
@@ -121,35 +145,6 @@
           </details>
         </div>
       </article>
-
-      <section class="requirements-panel" aria-labelledby="hardware-title">
-        <div class="requirements-heading">
-          <p class="eyebrow">Estimated hardware requirements</p>
-          <h3 id="hardware-title">What your computer needs.</h3>
-          <p>Practical estimates; large libraries and additional models need more storage.</p>
-        </div>
-        <div class="hardware-grid">
-          <article>
-            <span class="hardware-label">Search without AI</span>
-            <strong>8 GB RAM</strong>
-            <p>2+ CPU cores · SSD recommended · no dedicated GPU</p>
-            <small>Allow at least 3 GB plus space for a private copy of selected PDFs and notes.</small>
-          </article>
-          <article class="recommended-tier">
-            <span class="hardware-label">Semantic search · Qwen 0.6B</span>
-            <strong>8–16 GB RAM</strong>
-            <p>Modern 4-core CPU · SSD strongly recommended · GPU optional</p>
-            <small>The suggested <a href="https://ollama.com/library/qwen3-embedding:0.6b">Qwen model</a> downloads about 639 MB; its index grows with the library.</small>
-          </article>
-          <article>
-            <span class="hardware-label">Local answers · Gemma 4 12B</span>
-            <strong>16 GB minimum<br>24 GB recommended</strong>
-            <p>Recent multi-core CPU · dedicated GPU optional</p>
-            <small><a href="https://ollama.com/library/gemma4:12b">Gemma 4 12B</a> downloads about 7.6 GB. CPU-only answers work, but are slower.</small>
-          </article>
-        </div>
-        <p class="hardware-note">A dedicated GPU is optional. Disk use includes models, indexes and private working copies.</p>
-      </section>
 
       <article class="step" id="connect-libraries">
         <div class="step-copy">
