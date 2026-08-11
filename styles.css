@@ -80,8 +80,10 @@ h1 em, h2 em { color: var(--green); font-weight: 400; }
 .section-heading.centered { margin-inline: auto; text-align: center; }
 .section-heading h2, .privacy h2, .final-cta h2 { margin: 0; font-size: clamp(42px, 5vw, 72px); line-height: 1.04; letter-spacing: -.04em; }
 .section-heading p:last-child { color: var(--muted); font: 17px/1.6 var(--serif); }
-.intro { background: var(--panel); }
-.section-intro { max-width: 680px; margin: 25px 0 0 auto; color: #4d5851; font: clamp(17px, 1.8vw, 22px)/1.55 var(--serif); }
+.intro { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(320px, .7fr); align-items: end; gap: clamp(34px, 5vw, 80px); padding-block: clamp(44px, 4.5vw, 68px); background: var(--panel); }
+.intro .section-heading { max-width: 920px; }
+.intro .section-heading h2 { font-size: clamp(38px, 4.1vw, 62px); line-height: 1.02; }
+.section-intro { max-width: 500px; margin: 0 0 7px; color: #4d5851; font: clamp(15px, 1.35vw, 19px)/1.5 var(--serif); }
 
 .walkthrough { position: relative; overflow: hidden; }
 .walkthrough::before { content: ""; position: absolute; inset: 0 auto 0 50%; z-index: -1; border-left: 1px solid #e2b8af; }
@@ -225,6 +227,8 @@ footer div a { color: #d9e3dc; font-size: 10px; }
   .hero-product { width: min(900px, 92%); margin-left: auto; }
   .margin-note { display: none; }
   .step { grid-template-columns: 1fr; max-width: 850px; }
+  .intro { grid-template-columns: 1fr; gap: 20px; }
+  .section-intro { margin: 0; }
   .step.reverse .step-copy, .step.reverse .app-shot { order: initial; }
   .step-copy { max-width: 660px; }
   .feature-grid { grid-template-columns: repeat(2, 1fr); }
