@@ -4,15 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#173d30">
-  <meta name="description" content="Marginalia is a private local search application built exclusively for Zotero and Obsidian, with academic research as its primary use case.">
+  <meta name="description" content="Marginalia helps you find what you have already read across Zotero and Obsidian — privately, on your computer.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Marginalia — search what you've read">
-  <meta property="og:description" content="Private local search for Zotero and Obsidian. Keyword search works without AI; semantic search and answers are optional.">
+  <meta property="og:description" content="Find the paper, passage or note you remember across Zotero and Obsidian. Private local search with optional AI.">
   <meta property="og:image" content="https://k-k-szostak.github.io/marginalia-local-search-site/assets/og-marginalia.png">
   <meta property="og:url" content="https://k-k-szostak.github.io/marginalia-local-search-site/">
   <meta name="twitter:card" content="summary_large_image">
   <title>Marginalia — private search for Zotero and Obsidian</title>
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=5">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -37,7 +37,7 @@
       <div class="hero-copy">
         <p class="eyebrow"><span>Zotero + Obsidian</span> Windows beta</p>
         <h1>Search what you've read.<br><em>Find what you meant.</em></h1>
-        <p class="hero-lead">Built exclusively for <strong>Zotero and Obsidian</strong>, with academic research as its primary use case. Search papers, annotations and notes as one library, find related ideas and optionally generate source-linked answers with local AI. Everything stays on your computer — and anyone who works with these tools can use it.</p>
+        <p class="hero-lead">Highlight while reading in <strong>Zotero</strong>. Write notes in <strong>Obsidian</strong>. Later, find the passage or idea again — in your annotations, notes or the extracted text of your PDFs. Optional local AI can answer from those sources.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#download-guide">
             Download &amp; install <span aria-hidden="true">↓</span>
@@ -51,39 +51,39 @@
         <img src="assets/screenshot-search.png?v=2" alt="Marginalia search screen showing grouped results from a private research library" width="1253" height="712">
         <figcaption><span class="status-pulse"></span> Runs locally on your computer</figcaption>
       </figure>
-      <aside class="margin-note" aria-label="Summary">Your annotations,<br>PDFs and notes —<br><strong>finally together.</strong></aside>
+      <aside class="margin-note" aria-label="Summary">Read it.<br>Highlight it.<br><strong>Find it again.</strong></aside>
     </section>
 
     <section class="trust-strip" aria-label="Key facts">
-      <div><strong>Search both libraries</strong><span>One query across Zotero papers, PDFs and Obsidian notes</span></div>
-      <div><strong>Find ideas, not only words</strong><span>Choose keyword, semantic or hybrid search</span></div>
-      <div><strong>Generate grounded answers</strong><span>Optional local AI answers cite the matching sources</span></div>
+      <div><strong>Read, highlight, take notes. Find it later.</strong><span>Search Zotero and Obsidian from one place</span></div>
+      <div><strong>Search inside your PDFs</strong><span>Find passages in extracted full text, not only titles</span></div>
+      <div><strong>Ask your own library</strong><span>Optional local AI answers point back to highlighted sources</span></div>
       <div><strong>Keep research private</strong><span>Files, queries and optional AI stay on your computer</span></div>
     </section>
 
     <section class="intro section" id="how">
       <div class="section-heading">
-        <p class="eyebrow">From folders to findings</p>
-        <h2>Zotero and Obsidian.<br><em>One academic search.</em></h2>
+        <p class="eyebrow">From reading to rediscovery</p>
+        <h2>Highlight in Zotero. Write in Obsidian.<br><em>Find it in Marginalia.</em></h2>
       </div>
-      <p class="section-intro">Marginalia is purpose-built for these two sources — it does not claim to index arbitrary folders or other reference managers. Academic research is the main use case, but anyone using Zotero or Obsidian can benefit. Marginalia searches titles, metadata, PDFs, highlights, comments and notes from one place.</p>
+      <p class="section-intro">Keep reading and annotating in Zotero and writing in Obsidian. Marginalia makes both searchable — together or separately.</p>
 
       <div class="flow" aria-label="How Marginalia works">
-        <div class="flow-card"><span>01</span><strong>Connect</strong><p>Choose Zotero, Obsidian, or both.</p></div>
+        <a class="flow-card" href="#highlight-workflow"><span class="flow-number">01</span><strong>Read, highlight &amp; note</strong><p>Work in Zotero and Obsidian as usual.</p><span class="flow-link">Why it matters ↓</span></a>
         <div class="flow-arrow" aria-hidden="true">→</div>
-        <div class="flow-card"><span>02</span><strong>Copy & index</strong><p>Marginalia prepares private working copies.</p></div>
+        <a class="flow-card" href="#build-private-index"><span class="flow-number">02</span><strong>Refresh Marginalia</strong><p>Update the private local index.</p><span class="flow-link">See this step ↓</span></a>
         <div class="flow-arrow" aria-hidden="true">→</div>
-        <div class="flow-card"><span>03</span><strong>Search</strong><p>Find exact words, related ideas or both.</p></div>
+        <a class="flow-card" href="#search-library"><span class="flow-number">03</span><strong>Search from memory</strong><p>Use words, meaning, or only your highlights.</p><span class="flow-link">See this step ↓</span></a>
         <div class="flow-arrow" aria-hidden="true">→</div>
-        <div class="flow-card"><span>04</span><strong>Read in context</strong><p>Open the passage inside its document.</p></div>
+        <a class="flow-card" href="#read-in-context"><span class="flow-number">04</span><strong>Read in context</strong><p>Open the passage inside its document.</p><span class="flow-link">Explore the feature ↓</span></a>
       </div>
     </section>
 
     <section class="walkthrough section" id="install">
       <div class="section-heading centered">
-        <p class="eyebrow">First run, step by step</p>
-        <h2>No technical setup required.</h2>
-        <p>Follow these screens. Your first start needs an internet connection; later keyword searches work offline.</p>
+        <p class="eyebrow">Installation and first run</p>
+        <h2>From download to first search.</h2>
+        <p>Install on Windows, connect Zotero or Obsidian and build the local index. AI remains optional.</p>
       </div>
 
       <article class="step step-download" id="download-guide">
@@ -135,70 +135,65 @@
       <section class="requirements-panel" aria-labelledby="hardware-title">
         <div class="requirements-heading">
           <p class="eyebrow">Estimated hardware requirements</p>
-          <h3 id="hardware-title">Choose the experience that fits your computer.</h3>
-          <p>These are practical estimates, not hard limits. Library size, PDF count and the models you select all affect storage and speed.</p>
+          <h3 id="hardware-title">What your computer needs.</h3>
+          <p>Practical estimates; large libraries and additional models need more storage.</p>
         </div>
         <div class="hardware-grid">
           <article>
             <span class="hardware-label">Search without AI</span>
             <strong>8 GB RAM</strong>
             <p>2+ CPU cores · SSD recommended · no dedicated GPU</p>
-            <small>Start with at least 3 GB for the application and indexes, then add space for a private working copy of your selected Zotero PDFs and Obsidian notes. Large libraries need more.</small>
+            <small>Allow at least 3 GB plus space for a private copy of selected PDFs and notes.</small>
           </article>
           <article class="recommended-tier">
             <span class="hardware-label">Semantic search · Qwen 0.6B</span>
             <strong>8–16 GB RAM</strong>
             <p>Modern 4-core CPU · SSD strongly recommended · GPU optional</p>
-            <small>The suggested <a href="https://ollama.com/library/qwen3-embedding:0.6b">Qwen model</a> downloads about 639 MB. Its separate semantic index grows with the number of searchable passages.</small>
+            <small>The suggested <a href="https://ollama.com/library/qwen3-embedding:0.6b">Qwen model</a> downloads about 639 MB; its index grows with the library.</small>
           </article>
           <article>
             <span class="hardware-label">Local answers · Gemma 4 12B</span>
             <strong>16 GB minimum<br>24 GB recommended</strong>
             <p>Recent multi-core CPU · dedicated GPU optional</p>
-            <small><a href="https://ollama.com/library/gemma4:12b">Gemma 4 12B</a> downloads about 7.6 GB. CPU-only answers work but can be slow; about 10–12 GB VRAM is a useful target for mostly-GPU inference.</small>
+            <small><a href="https://ollama.com/library/gemma4:12b">Gemma 4 12B</a> downloads about 7.6 GB. CPU-only answers work, but are slower.</small>
           </article>
         </div>
-        <p class="hardware-note"><strong>Disk planning:</strong> free space should cover the application, chosen Ollama models, generated indexes and a working copy of selected source files. Your originals remain untouched.</p>
+        <p class="hardware-note">A dedicated GPU is optional. Disk use includes models, indexes and private working copies.</p>
       </section>
 
-      <article class="step">
+      <article class="step" id="connect-libraries">
         <div class="step-copy">
           <span class="step-number">02</span>
           <p class="eyebrow">Choose your sources</p>
           <h3>Connect only what you want.</h3>
-          <p>Select your Zotero data folder, your Obsidian vault, or both. Marginalia reads them to create separate private copies; it does not edit your original folders.</p>
-          <ul class="tick-list">
-            <li>Zotero and Obsidian are independently optional</li>
-            <li>Folder locations can be changed later</li>
-            <li>No documents are uploaded to a cloud service</li>
-          </ul>
+          <p>Select your Zotero data folder, your Obsidian vault, or both. Marginalia creates private copies and does not edit the originals.</p>
         </div>
         <figure class="app-shot">
-          <img src="assets/screenshot-setup.png?v=2" alt="Connect your libraries screen in Marginalia, with optional Zotero and Obsidian folder choices" width="1253" height="712" loading="lazy">
+          <img src="assets/screenshot-setup-detail.png?v=1" alt="Connect your libraries screen in Marginalia, with optional Zotero and Obsidian folder choices" width="690" height="555" loading="lazy">
           <figcaption>On first start, choose at least one library and select “Copy and build my library”.</figcaption>
         </figure>
       </article>
 
-      <article class="step reverse">
+      <article class="step reverse" id="build-private-index">
         <div class="step-copy">
           <span class="step-number">03</span>
           <p class="eyebrow">Let Marginalia prepare</p>
           <h3>See exactly what is happening.</h3>
-          <p>The progress window reports the current file, completed stages, time spent and whether local AI uses your CPU or GPU. If interrupted, completed preparation stages are preserved and the semantic index can resume.</p>
+          <p>Follow the current file, completed stages and elapsed time. If interrupted, completed preparation stages are preserved and semantic indexing can resume.</p>
           <div class="callout gold"><strong>Large libraries take time on the first run.</strong> Later refreshes reuse unchanged work wherever possible.</div>
         </div>
         <figure class="app-shot">
-          <img src="assets/screenshot-refresh.png?v=2" alt="Marginalia library refresh progress window with pipeline stages and progress bar" width="1253" height="712" loading="lazy">
+          <img src="assets/screenshot-refresh-detail.png?v=1" alt="Marginalia library refresh progress window with pipeline stages and progress bar" width="850" height="455" loading="lazy">
           <figcaption>The refresh dashboard shows the active stage and overall progress.</figcaption>
         </figure>
       </article>
 
-      <article class="step">
+      <article class="step" id="search-library">
         <div class="step-copy">
           <span class="step-number">04</span>
           <p class="eyebrow">Search your library</p>
-          <h3>Ask in words, meaning, or both.</h3>
-          <p>Type a phrase, author, argument or idea. Narrow results by Zotero or Obsidian folders and dates, then open a matching passage in the built-in reader.</p>
+          <h3>Find what you read or wrote.</h3>
+          <p>Search Zotero highlights and PDFs, Obsidian notes, or everything together. Then narrow by folders and dates.</p>
           <div class="mode-list">
             <div><strong>BM25</strong><span>Fast, exact keyword search. No AI required.</span></div>
             <div><strong>Embeddings</strong><span>Find passages with related meaning.</span></div>
@@ -206,8 +201,8 @@
           </div>
         </div>
         <figure class="app-shot">
-          <img src="assets/screenshot-search.png?v=2" alt="Marginalia search interface with search modes, filters and grouped document results" width="1253" height="712" loading="lazy">
-          <figcaption>Search results are grouped by publication, with every matching passage close at hand.</figcaption>
+          <img src="assets/screenshot-search-detail.png?v=2" alt="Marginalia searching Zotero annotations for a remembered idea and generating an answer with highlighted sources" width="900" height="500" loading="lazy">
+          <figcaption>Ask from memory, limit the search to the right layer and trace every answer back to its sources.</figcaption>
         </figure>
       </article>
 
@@ -225,7 +220,7 @@
           <p class="fine-print">Each embedding model gets its own index and a visible build progress bar.</p>
         </div>
         <figure class="app-shot">
-          <img src="assets/screenshot-ai.png?v=2" alt="Marginalia AI models dialog showing optional embedding and answer model installations" width="1253" height="712" loading="lazy">
+          <img src="assets/screenshot-ai-detail.png?v=1" alt="Marginalia AI models dialog showing optional embedding and answer model installations" width="630" height="455" loading="lazy">
           <figcaption>Installed models remain manageable from the application interface.</figcaption>
         </figure>
       </article>
@@ -237,12 +232,10 @@
         <h2>More than a search box.</h2>
       </div>
       <div class="feature-grid">
-        <article class="feature feature-wide"><span>⌕</span><h3>Search every layer</h3><p>Titles, metadata, PDF text, highlights, margin comments, Zotero notes and Obsidian Markdown all live in one index.</p></article>
-        <article class="feature"><span>✎</span><h3>Annotations first</h3><p>Search your own highlights and comments separately when the ideas you need are already in your margins.</p></article>
-        <article class="feature"><span>▤</span><h3>Read in context</h3><p>Jump from a result to its surrounding page and continue through the document without losing the match.</p></article>
-        <article class="feature"><span>◎</span><h3>Private by design</h3><p>Files, indexes, searches and optional model processing stay on your machine.</p></article>
-        <article class="feature"><span>↻</span><h3>Resumable updates</h3><p>Refresh progress is saved. Semantic indexes can continue after an interruption instead of restarting the entire pipeline.</p></article>
-        <article class="feature feature-wide"><span>◇</span><h3>Flexible local AI</h3><p>Use one or several embedding models, build a separate index for each, choose an answer model independently, or use no AI at all.</p></article>
+        <article class="feature" id="highlight-workflow"><span>✎</span><h3>From reading to rediscovery</h3><p>Keep highlighting in Zotero and writing in Obsidian. Marginalia helps you retrieve both later.</p></article>
+        <article class="feature"><span>▤</span><h3>Full-text PDF search</h3><p>Search the text extracted from your papers, even when the words never appeared in a title.</p></article>
+        <article class="feature"><span>⌕</span><h3>Search exactly where you want</h3><p>Use only Zotero highlights, only Obsidian notes, extracted PDFs, metadata—or everything together.</p></article>
+        <article class="feature" id="read-in-context"><span>✦</span><h3>Answers grounded in your sources</h3><p>Optional local AI answers from retrieved passages, highlights the supporting evidence and lets you open it in context.</p></article>
       </div>
     </section>
 
@@ -253,8 +246,7 @@
           <h2>Your library stays <em>your library.</em></h2>
         </div>
         <div class="privacy-copy">
-          <p>Marginalia works from private copies and never writes into the Zotero or Obsidian folders you selected. There is no account to create and no document upload step.</p>
-          <p>If you enable AI, Ollama runs the selected models locally. If you do not, ordinary BM25 search remains fully available.</p>
+          <p>Marginalia never writes into your selected Zotero or Obsidian folders. There is no account or document upload; optional AI runs locally through Ollama.</p>
           <a class="text-link light" href="https://github.com/K-K-Szostak/marginalia-local-search">Inspect the source code →</a>
         </div>
       </div>
@@ -266,12 +258,10 @@
         <h2>Common questions.</h2>
       </div>
       <div class="faq-list">
-        <details><summary>Do I need to know Python?</summary><p>No. Double-click <strong>Start Marginalia.cmd</strong>. If the required Python version is missing, Marginalia explains the situation and asks for permission before attempting an official installation. It will not silently install anything.</p></details>
-        <details><summary>What if Python is already installed?</summary><p>Marginalia reuses a compatible Python 3.12 installation. It then creates an isolated environment inside its own folder so the application does not modify your other Python projects.</p></details>
+        <details><summary>What happens with Python?</summary><p>Marginalia reuses Python 3.12 when available. Otherwise it asks before attempting an official installation, then creates an isolated environment inside its own folder.</p></details>
         <details><summary>Do I need Ollama or an AI model?</summary><p>No. BM25 keyword search works without Ollama. Semantic search and generated answers are optional, and you choose each model separately.</p></details>
         <details><summary>Will it modify my Zotero or Obsidian library?</summary><p>No. Marginalia creates and searches private working copies. Your source folders remain untouched.</p></details>
         <details><summary>Does it support macOS or Linux?</summary><p>Not in this beta. The downloadable package currently supports Windows 10/11 on 64-bit PCs. macOS and Linux packages are planned, but are not available yet.</p></details>
-        <details><summary>What computer do I need?</summary><p>For ordinary BM25 search, an x64 Windows 10/11 computer with 8 GB RAM, at least two CPU cores and an SSD is a sensible baseline. The lightweight Qwen embedding model is comfortable with 8–16 GB RAM. Local answers with Gemma 4 12B need about 7.6 GB just for the downloaded model; 16 GB RAM is the practical minimum and 24 GB is recommended. A GPU is optional but can make local AI much faster.</p></details>
         <details><summary>Windows warned me about the download. What should I do?</summary><p>Marginalia is a new, unsigned open-source project, so Windows may show a reputation warning. Download only from the official GitHub release linked on this page. You can inspect the source and verify the SHA-256 checksum shown above.</p></details>
         <details><summary>How do I update my library later?</summary><p>Use <strong>Refresh library</strong> in the left sidebar. Marginalia scans the selected sources again and updates its private copies and all previously active embedding indexes.</p></details>
       </div>
